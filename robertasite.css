@@ -1,0 +1,467 @@
+body{
+	width: 100%;
+	background-color: #FFE7F4;
+	font-family: arial;
+	}
+a{
+	text-decoration: none;
+	color: #99325e;
+	}
+.principal{
+	text-align: center; 
+	font-size: 50pt;
+	font-family: Bahnschrift SemiCondensed;
+	}
+.principal1{
+	text-align: center; 
+	font-size: 70pt;
+	font-family: Bahnschrift SemiCondensed;
+	}
+.naoprincipal1{
+	text-align: center; 
+	font-family: Bahnschrift SemiCondensed;
+	margin-top: -3%;
+	font-size: 15pt;
+	margin-bottom: 2%;
+	}
+.naoprincipal{
+	text-align: center; 
+	font-family: Bahnschrift SemiCondensed;
+	margin-top: -2%;
+	font-size: 15pt;
+	margin-bottom: 2%;
+	}
+h3{
+	font-size: 30pt;
+	font-family: Bahnschrift SemiCondensed;
+	}
+h4{
+	font-size: 20pt;
+	font-family: Bahnschrift SemiCondensed;
+	}
+h5{
+	font-size: 15pt;
+	font-family: Bahnschrift SemiCondensed;
+	}
+header{
+	width: 100%;
+	background-color: #FFB2D3;
+	}	
+#cabecalho{
+	width: 100%;
+	height: 30%;
+	background-color: #FFA2CA;
+	}
+#maininicio{
+	float: left;
+	width: 60%;
+	margin: 0% 0% 0% 7%;
+	}
+#asideinicio{
+	float: right;
+	width: 20%;
+	margin: 3% 7% 0% 0%;
+	text-align: center;
+	}
+.ainicio{
+	background-color: #e8a8c3;
+	margin-bottom: 2%;
+	border-radius: 13px;
+	}
+.ainicio a{
+	font-weight: bolder;
+	font-size: 18pt;
+	}	
+#asideinicio ul{
+	list-style: none;
+	}
+	/*iconescomeco*/
+#icone1{
+	width: 10%;
+	float: left;
+	margin: 2% 0% 0% 3%;
+	}
+#titulo{
+	width: 77%;
+	float: left;
+	}
+#icone2{
+	width: 10%;
+	float: left;
+	margin: 2% 0% 0% 0%;
+	}
+.menulupa{
+	width: 3%;
+	float: left;
+	margin: 2% 0% 0% 3%;
+	}
+.menu{
+	width: 80%;
+	margin-bottom: 40%;
+	}
+.titulotodos{
+	width: 87%;
+	float: left;
+	/*iconesfim*/
+	}
+.loginbotao{
+	width: 3%;
+	height: 80%;
+	float: left;
+	margin: 2% 3% 0% 0%;
+	}
+.botaologin{
+	height: 20%;
+	padding: 6%;
+	background-color: #c27495;
+	border-radius: 6px;
+	text-decoration: none;
+	font-family: Franklin Gothic Medium;
+	text-align: center;
+	font-size: 12pt;
+	color: white;
+	}
+nav{
+	text-align: center;
+	width: 100%;
+	}
+nav li{
+	display: inline;
+	background-color: #E180A9;
+	padding: 1% 5% 1% 5%;
+	font-family: Franklin Gothic Medium;
+	font-size: 19pt;
+	text-transform: uppercase;
+	}
+nav ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+	}
+nav ul li a:hover{
+	text-decoration: none;
+	color: #B4004F;
+	}
+footer{
+	text-align: center;
+	background-color: #FFB2D3;
+	width: 100%;
+	height:40%;
+	float: left;
+	}
+.passarofooter{
+	width:5%;
+	text-align: center;
+	margin: 2% 0% -2% 0%;
+	opacity: 75%;
+	}
+footer h6{
+	color: #AB0C55;
+	font-family: Franklin Gothic Medium;
+	font-size: 19pt;
+	line-height: 0em;
+
+	}
+	/*personagens*/
+#personagemmargin{
+	margin-left: 12%;
+	}
+figure{
+	float: left;
+	width: 25%;
+	}
+#table{
+	clear: left;
+	text-align: center;
+	}
+.sofrimento{
+	clear:left;
+	}
+.imgpersonagem{
+	width: 80%;
+	}
+.imgpersonagem:hover{
+	width: 90%;
+	}
+
+#table1{
+	margin: 0% auto 2% auto;
+    width: 10em;
+	border-radius: 10px;
+	border: 1px solid black;
+	}
+.cor1{
+	background-color: #FFB9D9;
+	}
+.cor2{
+	background-color: #F3BED6;
+	}
+th, td {
+	padding: 7px 10px 10px 10px;
+	}
+th{	
+	text-transform: letter-spacing: 0.1em;
+	uppercase;
+	font-size: 90%;
+	border-bottom: 2px solid #111111;
+	border-top: 1px solid #999;
+	text-align: left; 
+	}
+tr.even {
+	background-color: #FFDEED;}
+tr.neven {
+	background-color: #F1D2E0;}
+	/*personagensfim*/
+/*login*/
+form{
+	border: 1px solid #dbbbc8;
+	width: 30%;
+	margin: 2% auto 3% auto;
+	background-image: url(imagens/fundo2.png);
+	border-radius: 6%;
+	text-align: center;
+	}
+button{
+	background-color: #c27495;
+	color: white;
+	border: 1px solid #dbbbc8;
+	border-radius: 15%;
+	font-family: Franklin Gothic Medium;
+	padding: 1%;
+	}
+button:hover{
+	background-color: #b13f6d;
+	color: white;
+	}
+.input{
+	border: 1px solid black;
+	border-radius: 0px 7px 7px 0px;
+	background-color: #eec6d6;
+	padding: 2%;
+	}
+.input:hover, .input:focus{
+	border: 2px solid #954e6f;
+	border-radius: 0px 7px 7px 0px;
+	background-color: #f5d4e1;
+	padding: 3%;
+	}
+.label{
+	border: 1px solid black;
+	border-radius: 7px 0px 0px 7px;
+	background-color: #ac104f;
+	color: white;
+	padding: 2%;
+	font-family: Franklin Gothic Medium;
+	}
+#campos{
+	color: #a5004c;
+	font-size: 8pt;
+	}
+#enviar{
+	padding: 2%;
+	font-family: Franklin Gothic Medium;
+	background-color: #ae0051;
+	border-radius: 15%;
+	color: white;
+	border: 1px solid white;
+	}
+#enviar:hover{
+	background-color: #6e0033;
+	}
+#passarologin{
+	width: 10%;
+	padding-top: 2%;}
+.bodylogin{
+	background-image: url(imagens/fundo.png);
+	}
+/*loginfim*/
+#login2{
+	text-align: center;
+	width: 30%;
+	margin: 0% auto 0% auto;
+	}
+#botaoinicio{
+	padding: 2%;
+	font-family: Franklin Gothic Medium;
+	background-color: #ae0051;
+	border-radius: 10px;
+	border: 1px solid white;
+	width: 30%;
+	margin: 0% auto 0% auto;
+	}
+#botaoinicio:hover{
+	background-color: #6f2446;
+	}
+#botaoinicio a{
+	color: white;
+	}
+	/*comum*/
+p.texto{
+		padding: 3%;
+	}
+	h3{
+	text-align: center;
+	}
+	/*comumfim*/
+.imginicio{
+	width: 100%;
+	}
+/*jogos*/
+#mainjogos{
+	width: 60%;
+	float: left;
+	margin: 0% 0% 0% 7%;
+	}
+#asidejogos{
+	width: 15%;
+	float: left;
+	margin: 5% 10% 0% 5%;
+	background-color: #FACEE1;
+	border: 1px solid #E180A9;
+	border-radius: 3px;
+	}
+#asidejogos ul li a{
+	color: #AB0C55;
+	font-family: Franklin Gothic Medium;
+	font-size: 19pt;
+	text-decoration: none;
+	}
+#asidejogos ul li a:hover{
+	color: #7a0130;
+	font-family: Franklin Gothic Medium;
+	font-size: 19pt;
+	text-decoration: none;
+	}
+#asidejogos ul{
+	list-style-image: url("imagens/cavera.png")
+	}
+#arena p{
+	width: 60%;
+	float: left;
+	}
+#arena img{
+	width: 30%;
+	float: left;
+	margin: 6% 0% 0% 2%;
+	}
+#colheita img{
+	width: 40%;
+	float: left;
+	margin: 0% 2% 2% 0%;
+	}
+/*jogosfim*/
+/*historia*/
+#mainhistoria{
+	width: 80%;
+	margin: 0% auto 0% auto;
+	}
+#asidehistoria{
+	width: 70%;
+	margin: 0% auto 3% auto;
+	}
+.imgjogos{
+	width: 60%;
+	}
+#tablehistoria{
+	border-radius: 10px;
+	border: 1px solid black;
+	width: 90%;
+	margin: 0% auto 0% auto;
+	}
+#cor1{
+	background-color: #FFB9D9;
+	}
+#cor2{
+	background-color: #F3BED6;
+	}
+th, td {
+	padding: 7px 10px 10px 10px;
+	}
+th{	
+	text-transform: letter-spacing: 0.1em;
+	font-size: 90%;
+	border-bottom: 2px solid #111111;
+	border-top: 1px solid #999;
+	text-align: left; 
+	}
+tr.even {
+	background-color: #FFDEED;}
+tr.neven {
+	background-color: #F1D2E0;}
+/*historiafim*/
+/*bonus*/
+#curiosidades{
+	width: 50%;
+	margin: 0% 5% 0% 12%;
+	float: left;
+	}
+#frases{
+	width: 20%;
+	float: left;
+	margin: 0% 12% 0% 0%;
+	text-align: center;
+	}
+.curiosidade p{
+	width: 55%;
+	float: left;
+	}
+.curiosidade img{
+	width: 30%;
+	float: left;
+	padding: 3% 0% 2% 3%;
+	}
+#spotify{
+	width: 100%;
+	float: left;
+	clear: left;
+	text-align: center;
+	}
+#frases section{
+	margin-top: 10%;
+	padding: 2%;
+	background-color: #FACEE1;
+	border: 1px solid #E180A9;
+	border-radius: 3px;
+	}
+/*bonusfim*/
+/*livrosfilmes*/
+#livros{
+	width: 50%;
+	float: left;
+	margin: 0% 1% 0% 10%;
+	}
+#filmes{
+	width: 20%;
+	float: left;
+	margin: 0% 12% 0% 1%;
+	}
+#cantiga{
+	width: 80%;
+	float: left;
+	clear: left;
+	margin: 3% 8% 3% 8%;
+	background-color: #e8a8c3;
+	border-radius: 13px;
+	padding: 2%;
+	text-align: center;
+	}
+#livros img{
+	width: 30%;
+	margin: 0% 3% 2% 0%;
+	float:left;
+	}
+#filmes img{
+	width: 20%;
+	margin: 0% 6% 2% 0%;
+	float:left;
+	}
+#cantigaimg{
+	width: 15%;
+	float: left;
+	}
+.cantigaparte1{
+	float: left;
+	width: 40%;
+	margin-left: 1%;
+	}
+/*livrosfilmesfim*/
